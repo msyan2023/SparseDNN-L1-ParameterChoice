@@ -15,8 +15,8 @@ transform = transforms.Compose([
 ])
 
 # Load the dataset
-train_dataset = datasets.MNIST(root='../../data', train=True, download=True, transform=transform)
-test_dataset = datasets.MNIST(root='../../data', train=False, download=True, transform=transform)
+train_dataset = datasets.MNIST(root='~/data', train=True, download=True, transform=transform)
+test_dataset = datasets.MNIST(root='~/data', train=False, download=True, transform=transform)
 
 
 from Class_CNN8 import BasicInfo_CNN8
